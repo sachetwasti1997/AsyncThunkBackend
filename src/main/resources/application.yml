@@ -1,0 +1,14 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://root@localhost:3306/media
+    password: Wasti786@
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
+
+logging:
+  level:
+    org:
+      springframework:
+        r2dbc: DEBUG
